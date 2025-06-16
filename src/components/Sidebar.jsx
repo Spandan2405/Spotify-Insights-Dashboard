@@ -5,7 +5,7 @@ import Recent from "../assets/icons/Recent";
 import Music from "../assets/icons/Music";
 import Mic from "../assets/icons/Mic";
 import Playlists from "../assets/icons/Playlists";
-import Spotify from "../assets/logo/Spotify";
+import Spotify from "../assets/logo/Spotify_logo";
 import Github from "../assets/logo/Github";
 
 const Sidebar = () => {
