@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Profile from "../assets/icons/profile";
+import Profile from "../assets/icons/ProfileImg";
 import { logout } from "../utils/spotify";
 import RandomProfileGenerator from "../utils/RandomProfileGenerator";
 

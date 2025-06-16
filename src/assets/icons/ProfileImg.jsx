@@ -1,6 +1,6 @@
 import React from "react";
 
-function Profile() {
+function ProfileImg() {
   return (
     <svg
       id="user-icon"
@@ -14,4 +14,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default ProfileImg;
