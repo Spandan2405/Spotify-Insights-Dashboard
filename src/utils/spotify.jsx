@@ -8,7 +8,7 @@
 
 import axios from "axios";
 
-const BASE_URL = "https://spotify-backend-six.vercel.app/";
+const BASE_URL = "https://spotify-dashboard-backend-yn6x.onrender.com";
 
 // Map for localStorage keys
 const LOCALSTORAGE_KEYS = {
