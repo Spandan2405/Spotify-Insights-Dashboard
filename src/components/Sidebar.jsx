@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import User from "../assets/icons/User";
 import Recent from "../assets/icons/Recent";
 import Music from "../assets/icons/Music";
@@ -10,7 +10,7 @@ import Github from "../assets/logo/Github";
 
 const Sidebar = () => {
   const navigationItems = [
-    { id: "", label: "Profile", icon: User },
+    { id: "profile", label: "Profile", icon: User },
     { id: "top-artists", label: "Top Artists", icon: Mic },
     { id: "top-tracks", label: "Top Tracks", icon: Music },
     { id: "recent", label: "Recent", icon: Recent },
@@ -22,9 +22,11 @@ const Sidebar = () => {
       {/* Desktop Sidebar */}
       <div className="hidden md:flex w-16 lg:w-24 bg-black h-screen fixed left-0 top-0 flex-col justify-between py-6 sm:py-8 lg:py-10">
         {/* Spotify Logo */}
-        <div className="flex items-center justify-center text-green-500">
-          <Spotify className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8" />
-        </div>
+        <NavLink to={"/"}>
+          <div className="flex items-center justify-center text-green-500">
+            <Spotify className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8" />
+          </div>
+        </NavLink>
         {/* Navigation Items */}
         <nav className="flex w-full">
           <ul className="w-full flex flex-col items-center">
@@ -61,7 +63,7 @@ const Sidebar = () => {
         {/* GitHub Link */}
         <div className="flex items-center justify-center">
           <a
-            href="https://github.com"
+            href="https://github.com/Spandan2405/Spotify-Insights-Dashboard"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-blue-300"

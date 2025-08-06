@@ -12,12 +12,14 @@ function Artists() {
   const { loading, error, timeRange, setTimeRange, setLoading, setError } =
     useContext(SpotifyContext);
   const [topartists, setTopArtists] = useState([]);
-
+  const DEMO_MODE = localStorage.setItem("spotify_demo_mode", "true");
   useEffect(() => {
     try {
       setLoading(true);
       const fetchArtists = async (timeRange) => {
-        const userArtists = await getTopArtists({ timeRange });
+        const userArtists = await getTopArtists(
+          DEMO_MODE ? timeRange : { timeRange }
+        );
         if (!userArtists.success) throw new Error(userArtists.error);
         setTopArtists(userArtists.data);
       };

@@ -14,7 +14,7 @@ function ErrorHandler({ loading, error }) {
         {error}
         {
           <button className="px-8 py-4 text-white bg-green-500 mt-6 rounded-full text-xl font-semibold">
-            <a href="https://spotify-backend-six.vercel.app/auth/login">
+            <a href="https://spotify-dashboard-backend-yn6x.onrender.com/auth/login">
               Log in with Spotify
             </a>
           </button>

@@ -36,7 +36,7 @@ const ArtistDetail = () => {
   if (loading || error) {
     return <ErrorHandler loading={loading} error={error} />;
   }
-  console.log(artist);
+  console.log(topTracks.tracks);
 
   return (
     <div className="w-full flex flex-col md:flex-row min-h-screen items-center justify-center py-12 px-6 bg-zinc-900 text-white gap-8">
@@ -101,14 +101,14 @@ const ArtistDetail = () => {
       <div className="md:w-2/5 w-full mb-20 md:mb-0">
         <h2 className="text-2xl font-bold mb-8">Artist's Top Tracks</h2>
         <ul className="space-y-4">
-          {topTracks.slice(0, 5).map((track) => (
+          {topTracks.tracks.slice(0, 5).map((track) => (
             <li
               key={track.id}
               className="flex items-center gap-4 group cursor-pointer"
             >
               <img
                 src={
-                  track.album.images?.[2]?.url ||
+                  track.album.images?.[0]?.url ||
                   "https://via.placeholder.com/64"
                 }
                 alt={track.name}

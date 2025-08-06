@@ -1,0 +1,332 @@
+{
+  "profile": {
+    "id": "demo_user",
+    "display_name": "Demo User",
+    "email": "demo@example.com",
+    "followers": {
+      "total": 42
+    },
+    "images": [
+      {
+        "url": "/placeholder.svg?height=300&width=300"
+      }
+    ],
+    "country": "US",
+    "product": "premium"
+  },
+  "playlists": {
+    "items": [
+      {
+        "id": "demo_playlist_1",
+        "name": "My Top Hits",
+        "description": "A collection of my favorite tracks",
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "tracks": {
+          "total": 50
+        },
+        "public": true
+      },
+      {
+        "id": "demo_playlist_2",
+        "name": "Chill Vibes",
+        "description": "Perfect for relaxing",
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "tracks": {
+          "total": 35
+        },
+        "public": true
+      },
+      {
+        "id": "demo_playlist_3",
+        "name": "Workout Mix",
+        "description": "High energy tracks for the gym",
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "tracks": {
+          "total": 28
+        },
+        "public": false
+      }
+    ],
+    "total": 15
+  },
+  "topArtists": {
+    "items": [
+      {
+        "id": "demo_artist_1",
+        "name": "The Weeknd",
+        "genres": ["pop", "r&b"],
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "popularity": 95,
+        "followers": {
+          "total": 15000000
+        }
+      },
+      {
+        "id": "demo_artist_2",
+        "name": "Dua Lipa",
+        "genres": ["pop", "dance pop"],
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "popularity": 92,
+        "followers": {
+          "total": 12000000
+        }
+      },
+      {
+        "id": "demo_artist_3",
+        "name": "Post Malone",
+        "genres": ["pop", "hip hop"],
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "popularity": 90,
+        "followers": {
+          "total": 18000000
+        }
+      },
+      {
+        "id": "demo_artist_4",
+        "name": "Billie Eilish",
+        "genres": ["pop", "alternative"],
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "popularity": 94,
+        "followers": {
+          "total": 14000000
+        }
+      },
+      {
+        "id": "demo_artist_5",
+        "name": "Drake",
+        "genres": ["hip hop", "rap"],
+        "images": [
+          {
+            "url": "/placeholder.svg?height=300&width=300"
+          }
+        ],
+        "popularity": 96,
+        "followers": {
+          "total": 20000000
+        }
+      }
+    ]
+  },
+  "topTracks": {
+    "items": [
+      {
+        "id": "demo_track_1",
+        "name": "Blinding Lights",
+        "artists": [
+          {
+            "id": "demo_artist_1",
+            "name": "The Weeknd"
+          }
+        ],
+        "album": {
+          "id": "demo_album_1",
+          "name": "After Hours",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ],
+          "release_date": "2020-03-20"
+        },
+        "duration_ms": 200040,
+        "popularity": 95,
+        "preview_url": null
+      },
+      {
+        "id": "demo_track_2",
+        "name": "Levitating",
+        "artists": [
+          {
+            "id": "demo_artist_2",
+            "name": "Dua Lipa"
+          }
+        ],
+        "album": {
+          "id": "demo_album_2",
+          "name": "Future Nostalgia",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ],
+          "release_date": "2020-03-27"
+        },
+        "duration_ms": 203064,
+        "popularity": 92,
+        "preview_url": null
+      },
+      {
+        "id": "demo_track_3",
+        "name": "Circles",
+        "artists": [
+          {
+            "id": "demo_artist_3",
+            "name": "Post Malone"
+          }
+        ],
+        "album": {
+          "id": "demo_album_3",
+          "name": "Hollywood's Bleeding",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ],
+          "release_date": "2019-09-06"
+        },
+        "duration_ms": 215280,
+        "popularity": 88,
+        "preview_url": null
+      },
+      {
+        "id": "demo_track_4",
+        "name": "bad guy",
+        "artists": [
+          {
+            "id": "demo_artist_4",
+            "name": "Billie Eilish"
+          }
+        ],
+        "album": {
+          "id": "demo_album_4",
+          "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ],
+          "release_date": "2019-03-29"
+        },
+        "duration_ms": 194088,
+        "popularity": 94,
+        "preview_url": null
+      },
+      {
+        "id": "demo_track_5",
+        "name": "God's Plan",
+        "artists": [
+          {
+            "id": "demo_artist_5",
+            "name": "Drake"
+          }
+        ],
+        "album": {
+          "id": "demo_album_5",
+          "name": "Scorpion",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ],
+          "release_date": "2018-06-29"
+        },
+        "duration_ms": 198973,
+        "popularity": 91,
+        "preview_url": null
+      }
+    ]
+  },
+  "following": {
+    "artists": {
+      "items": [
+        {
+          "id": "demo_artist_1",
+          "name": "The Weeknd",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ]
+        },
+        {
+          "id": "demo_artist_2",
+          "name": "Dua Lipa",
+          "images": [
+            {
+              "url": "/placeholder.svg?height=300&width=300"
+            }
+          ]
+        }
+      ],
+      "total": 25
+    }
+  },
+  "recentlyPlayed": {
+    "items": [
+      {
+        "track": {
+          "id": "demo_track_1",
+          "name": "Blinding Lights",
+          "artists": [
+            {
+              "id": "demo_artist_1",
+              "name": "The Weeknd"
+            }
+          ],
+          "album": {
+            "id": "demo_album_1",
+            "name": "After Hours",
+            "images": [
+              {
+                "url": "/placeholder.svg?height=300&width=300"
+              }
+            ]
+          },
+          "duration_ms": 200040
+        },
+        "played_at": "2024-01-15T10:30:00Z"
+      },
+      {
+        "track": {
+          "id": "demo_track_2",
+          "name": "Levitating",
+          "artists": [
+            {
+              "id": "demo_artist_2",
+              "name": "Dua Lipa"
+            }
+          ],
+          "album": {
+            "id": "demo_album_2",
+            "name": "Future Nostalgia",
+            "images": [
+              {
+                "url": "/placeholder.svg?height=300&width=300"
+              }
+            ]
+          },
+          "duration_ms": 203064
+        },
+        "played_at": "2024-01-15T09:45:00Z"
+      }
+    ]
+  }
+}

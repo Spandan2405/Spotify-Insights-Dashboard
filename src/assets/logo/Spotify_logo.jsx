@@ -5,8 +5,8 @@ function Spotify_logo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
-      width="48px"
-      height="48px"
+      width="48"
+      height="48"
       viewBox="0 0 427.652 427.652"
       fill="currentColor"
     >
