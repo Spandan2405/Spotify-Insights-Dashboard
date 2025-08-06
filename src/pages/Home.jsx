@@ -7,7 +7,7 @@ import { FaRegEye } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 import { RiPlayListFill } from "react-icons/ri";
 import Spotify from "../assets/logo/Spotify_logo";
-import video from "../assets/Spotify Insight Dashboard.mp4";
+import video from "../assets/Spotify_walkthrough.mp4";
 import emailjs from "@emailjs/browser";
 
 export default function Home() {
