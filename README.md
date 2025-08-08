@@ -1,19 +1,8 @@
 <div id="top" class="">
 
 <div align="center" class="text-center">
-<h1>SPOTIFY-INSIGHTS-DASHBOARD</h1>
+<h1>🎵 SPOTIFY-INSIGHTS-DASHBOARD</h1>
 <p><em>Uncover Music Insights, Elevate Your Listening Experience</em></p>
-
-<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Spandan2405/Spotify-Insights-Dashboard?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Spandan2405/Spotify-Insights-Dashboard?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<p><em>Built with the tools and technologies:</em></p>
-<img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&amp;logo=React&amp;logoColor=black" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&amp;logo=JavaScript&amp;logoColor=black" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="Axios" src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&amp;logo=Axios&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
-<br>
-<img alt="npm" src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&amp;logo=npm&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF.svg?style=flat&amp;logo=Vite&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="ESLint" src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&amp;logo=ESLint&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
 </div>
 <br>
 <h2>Overview</h2>
@@ -29,25 +18,210 @@
 </ul>
 <hr>
 
-## Features
+## 🌟 Live Demo
 
-- **Spotify Authentication:** Secure OAuth login to access your Spotify data.
-- **Profile Overview:** View your Spotify profile, including display name, followers, following, and playlists.
-- **Top Artists & Tracks:** Explore your most-listened artists and tracks over different time ranges (All Time, Last 6 Months, Last 4 Weeks).
-- **Recently Played:** See your recently played tracks with quick access to details.
-- **Playlists:** Browse your playlists, filter by owned or collaborative, and open them directly in Spotify.
-- **Artist & Track Details:** Deep dive into artist and track information, including genres, popularity, and quick links to Spotify.
-- **Responsive Design:** Optimized for both desktop and mobile devices.
-- **Elegant UI:** Built with Tailwind CSS for a clean and modern look.
+- **🔗 Live Application**: https://spotify-insights-dashboard.vercel.app/
+- **👀 Demo Mode**: Try the application instantly with sample data
+- **📧 Request Access**: Get personalized access to use your own Spotify data
+  
+## ✨ Features
 
-## Tech Stack
+### 🎯 Core Analytics
+- **Profile Overview**: Display user profile with follower count, following, and playlist statistics
+- **Top Artists**: View most listened-to artists with filtering by time periods (4 weeks, 6 months, all time)
+- **Top Tracks**: Discover favorite songs with album artwork and detailed information
+- **Recently Played**: Track recent listening history with timestamps
+- **Playlists**: Browse user-created playlists with track counts and descriptions
+- **Artist Details**: Deep dive into individual artists with related artists and top tracks
+- **Track Details**: Detailed track information including audio features and recommendations
 
-- **Frontend:** [React](https://react.dev/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/)
-- **Routing:** [React Router](https://reactrouter.com/)
-- **State Management:** React Context API
-- **API:** Custom backend proxy for Spotify Web API (see [spotify-backend](../spotify-backend))
+### 🚀 User Experience Features
+- **Demo Mode**: Instant access with realistic sample data - perfect for recruiters and quick exploration
+- **Access Request System**: Professional form submission with automated email workflow
+- **Video Walkthrough**: Embedded video demonstration of all features
+- **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
+- **Loading States**: Smooth loading animations and skeleton screens
+- **Error Handling**: Comprehensive error handling with user-friendly messages and retry options
 
-## ScreenShots :- 
+### 🔧 Technical Features
+- **OAuth 2.0 Authentication**: Secure Spotify authentication with automatic token refresh
+- **Real-time Data**: Live data fetching from Spotify Web API
+- **State Management**: Global state management using React Context
+- **Client-side Routing**: Smooth navigation with React Router
+- **Email Integration**: Automated email system for access requests using Nodemailer
+- **Local Storage**: Secure token storage with expiration handling
+- **API Rate Limiting**: Proper handling of Spotify API rate limits
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React 18** - Modern React with hooks and functional components
+- **Tailwind CSS** - Utility-first CSS framework for responsive design
+- **React Router** - Client-side routing and navigation
+- **React Context** - Global state management
+
+### Backend & APIs
+- **Spotify Web API** - Music data and user authentication
+- **EmailJs** - Email service integration
+- **OAuth 2.0** - Secure authentication flow
+
+### Development & Deployment
+- **JavaScript/TypeScript** - Modern JavaScript with type safety
+- **Git** - Version control
+- **Environment Variables** - Secure configuration management
+- **Responsive Design** - Mobile-first approach
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm
+- Spotify Developer Account
+- Email service credentials (Gmail recommended)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/spotify-profile-analytics.git
+   cd spotify-profile-analytics
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   
+   Create a `.env.local` file in the root directory:
+   ```env
+   # Spotify API Configuration
+   SPOTIFY_CLIENT_ID=your_spotify_client_id
+   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+   SPOTIFY_REDIRECT_URI=http://localhost:3000/callback
+   
+   # Email Configuration
+   EMAIL_USER=your_email@gmail.com
+   EMAIL_PASS=your_app_password
+   
+   # Application Configuration
+   FRONTEND_URL=http://localhost:3000
+   NEXTAUTH_SECRET=your_nextauth_secret
+   ```
+
+4. **Configure Spotify App**
+   - Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+   - Create a new app
+   - Add `http://localhost:3000/callback` to redirect URIs
+   - Copy Client ID and Client Secret to your `.env.local`
+
+5. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+6. **Open your browser**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📱 Usage
+
+### Demo Mode
+1. Visit the landing page
+2. Click "Launch Demo" to explore with sample data
+3. Navigate through all features without authentication
+
+### Personal Access
+1. Click "Request Access" on the landing page
+2. Fill out the access request form
+3. Wait for approval email
+4. Use your Spotify credentials to log in
+
+### Features Navigation
+- **Profile**: Overview of your Spotify profile and statistics
+- **Top Artists**: Your most played artists with time filtering
+- **Top Tracks**: Your favorite songs with detailed information
+- **Recent**: Recently played tracks with timestamps
+- **Playlists**: Your created playlists and their details
+
+## 🏗️ Project Structure
+
+```
+spotify-profile-analytics/
+├── spotify-profile/              # Main application
+│   └── src/
+│       ├── components/           # React components
+│       │   ├── Sidebar.jsx       # Navigation sidebar
+│       │   ├── UserProfile.jsx   # Profile component
+│       │   └── ...
+│       ├── context/              # React Context
+│       │   └── SpotifyContext.jsx
+│       ├── pages/                # Application pages
+│       │   ├── Profile.jsx
+│       │   ├── Artists.jsx
+│       │   └── ...
+│       ├── utils/                # Utility functions
+│       │   └── spotify.jsx       # Spotify API integration
+│       └── data/                 # Demo data
+│           └── demoData.json
+├── public/                       # Static assets
+└── README.md
+```
+
+## 🔐 Authentication Flow
+
+1. **User Authentication**: OAuth 2.0 flow with Spotify
+2. **Token Management**: Automatic refresh token handling
+3. **Secure Storage**: Tokens stored in localStorage with expiration
+4. **API Requests**: Authenticated requests to Spotify Web API
+5. **Error Handling**: Graceful handling of authentication errors
+
+## 🎨 Design System
+
+- **Color Palette**: Spotify green (#1DB954) with dark theme
+- **Typography**: Clean, modern fonts with proper hierarchy
+- **Responsive Breakpoints**: Mobile-first responsive design
+- **Component Library**: Reusable components with consistent styling
+- **Animations**: Smooth transitions and loading states
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically on push
+
+### Other Platforms
+- **Netlify**: Static site deployment
+- **Railway**: Full-stack deployment
+- **Heroku**: Container-based deployment
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📞 Contact
+
+- **Portfolio**: https://spandangupta-v2.netlify.app/
+- **LinkedIn**: https://www.linkedin.com/in/spandangupta2003
+- **Email**: spandan2405@gmail.com
+- **GitHub**: https://github.com/Spandan2405
+
+---
+
+⭐ **Star this repository if you found it helpful!**
+
+Built with ❤️ and lots of ☕
+
+
+## ScreenShots :-
+
+<img width="1896" height="856" alt="image" src="https://github.com/user-attachments/assets/c3c44b70-ddc5-4b6e-a0f0-d049de2a33e9" />
 
 ![image](https://github.com/user-attachments/assets/671dfaa4-676e-4faf-b955-895af882d40e)
 
