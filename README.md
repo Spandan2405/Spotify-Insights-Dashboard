@@ -82,8 +82,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/spotify-profile-analytics.git
-   cd spotify-profile-analytics
+   git clone https://github.com/Spandan2405/Spotify-Insights-Dashboard.git
+   cd spotify-profile
    ```
 
 2. **Install dependencies**
@@ -100,13 +100,8 @@
    SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
    SPOTIFY_REDIRECT_URI=http://localhost:3000/callback
    
-   # Email Configuration
-   EMAIL_USER=your_email@gmail.com
-   EMAIL_PASS=your_app_password
-   
    # Application Configuration
    FRONTEND_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your_nextauth_secret
    ```
 
 4. **Configure Spotify App**
